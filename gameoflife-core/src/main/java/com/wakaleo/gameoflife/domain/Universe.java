@@ -36,7 +36,7 @@ public class Universe {
     public void createNextGeneration() {
 
         StringBuffer nextGenerationContent = new StringBuffer();
-
+	StringBufferr below;
         int maxRow = currentGridContent.getWidth();
         int maxColumn = currentGridContent.getHeight();
         // TODO: simplify this code
